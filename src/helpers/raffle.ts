@@ -11,6 +11,7 @@ import { checkIfAdmin } from './checkAdmin'
 import { Chat, findChat } from '../models/chat'
 import { loc } from './locale'
 import { InstanceType } from 'typegoose'
+import * as fastcsv from 'fast-csv'
 
 /**
  * Starting a new raffle
@@ -20,7 +21,7 @@ export async function startRaffle(ctx: ContextMessageUpdate) {
   // Get chat
   const chat = await findChat(ctx.chat.id)
   // Add raffle
-  const raffle = await addRaffle(ctx.chat.id)
+  const raffle = await addRaffle(ctx.chat.id, ctx.from.id)
   // Save raffle message if required
   if (chat.raffleMessage) {
     raffle.raffleMessage = chat.raffleMessage
@@ -569,5 +570,37 @@ export async function finishRaffle(raffle: Raffle, ctx: ContextMessageUpdate, de
         })
       }
     }
+  }
+
+  const users = [];
+  for (const id of raffle.participantsIds) {
+    const user = await ctx.telegram.getChatMember(raffle.chatId, id);
+    users.push(user.user);
+  }
+
+  try {
+
+    console.log('q');
+    
+    console.log(fastcsv);
+    
+
+    const buffer = await fastcsv.writeToBuffer(users, {
+      headers: true
+    })
+
+    console.log(buffer);
+    console.log('2');
+    
+    
+
+    const msg = await ctx.telegram.sendDocument(raffle.adminId, {
+      source: buffer,
+      filename: 'participiants.csv'
+    });
+    
+  } catch (e) {
+    console.log(e);
+    
   }
 }

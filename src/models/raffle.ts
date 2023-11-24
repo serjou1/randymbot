@@ -6,6 +6,9 @@ import { Message } from 'telegram-typings'
 export class Raffle extends Typegoose {
   @prop({ required: true, index: true })
   chatId: number
+  @prop()
+  adminId: number
+
   @prop({ index: true })
   messageId?: number
   @arrayProp({ required: true, default: [], items: Number })
@@ -29,8 +32,8 @@ export const RaffleModel = new Raffle().getModelForClass(Raffle)
  * @param messageId Message id of the raffle
  * @returns created raffle
  */
-export async function addRaffle(chatId: number) {
-  let raffle = new RaffleModel({ chatId })
+export async function addRaffle(chatId: number, adminId: number) {
+  let raffle = new RaffleModel({ chatId, adminId })
   return raffle.save()
 }
 
