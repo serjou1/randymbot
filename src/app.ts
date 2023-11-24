@@ -24,6 +24,8 @@ import { RaffleModel } from './models'
 import { findChat } from './models/chat'
 const telegraf = require('telegraf')
 
+import http from 'http';
+
 // Setup the bot
 const bot: Telegraf<ContextMessageUpdate> = new telegraf(process.env.TOKEN, {
   username: process.env.USERNAME,
@@ -102,3 +104,9 @@ bot.catch(console.error)
 process.on('unhandledRejection', (reason) => {
   console.log('Unhandled Rejection at:', reason)
 })
+
+const PORT = process.env.PORT || 3000;
+const app = http.createServer();
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
+});
