@@ -5,7 +5,7 @@ import { Message } from 'telegram-typings'
 export class Chat extends Typegoose {
   @prop({ required: true, index: true })
   chatId: number
-  @prop({ required: true, default: 'en' })
+  @prop({ required: true, default: 'uk' })
   language: string
   @prop({ required: true, default: 1 })
   number: number
