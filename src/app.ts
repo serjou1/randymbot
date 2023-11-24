@@ -24,7 +24,7 @@ import { RaffleModel } from './models'
 import { findChat } from './models/chat'
 const telegraf = require('telegraf')
 
-import http from 'http';
+import * as http from 'http';
 
 // Setup the bot
 const bot: Telegraf<ContextMessageUpdate> = new telegraf(process.env.TOKEN, {
