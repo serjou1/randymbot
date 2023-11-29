@@ -9,15 +9,15 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     en:
       "Hello, this is Randoom Bot.\n🤖🎯\nI am able to randomly select a chat or channel participant from those who have clicked on the \"Participate\" button.\n\nYou can change the language with the /language command. Change the number of winners (standard - 1) with the /number command.\n\n1. Send the /randoom command and the drawing will start.\n2. Reply to the drawing notification with any message and the drawing will end and the winner will be selected from the participants.\n\nWant to customize your own raffle messages and congratulations to the winners? Use /raffleMessage and /winnerMessage\n\nWant to organize a raffle, but don't want to send configuration messages in the chat or channel? You can do it in private messages with me. First, send any message from a channel or chat where you are an administrator.\n\nThen simply send me the above configuration commands in private messages to set up the draw in the selected chat or channel.\n\nAny questions? - Write: @buddybig 😇",
     pt:
-      "Olá! Eu sou Randy Marsh. Eu posso selecionar aleatoriamente um participante de sorteio (quem clica no botão \"Participar\") em um grupo ou canal. Você também pode alterar o idioma em /language e o número de ganhadores em cada sorteio (o padrão é 1) com o comando /number.\n\n1. Me adicione a um canal ou a um grupo, envie o comando /randoom e o sorteio começa.\n2. Responda com qualquer mensagem à minha mensagem de sorteio para terminá-lo e um vencedor será escolhido aleatoriamente será escolhido dentre os participantes.\n\nIf you want to check whether a user is subscribed to a particular channel you can set up the bot with the following format `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. If you want to turn it off, use /nosubscribe. Want to set custom raffle message? Use /raffleMessage. Want to use default raffle message? Use /noRaffleMessage. /winnerMessage and /noWinnerMessage work similarly. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nAinda tem perguntas? Visite nosso canal de suporte — @buddybig 🦄",
+      "Olá! Eu sou Randoom. Eu posso selecionar aleatoriamente um participante de sorteio (quem clica no botão \"Participar\") em um grupo ou canal. Você também pode alterar o idioma em /language e o número de ganhadores em cada sorteio (o padrão é 1) com o comando /number.\n\n1. Me adicione a um canal ou a um grupo, envie o comando /randoom e o sorteio começa.\n2. Responda com qualquer mensagem à minha mensagem de sorteio para terminá-lo e um vencedor será escolhido aleatoriamente será escolhido dentre os participantes.\n\nIf you want to check whether a user is subscribed to a particular channel you can set up the bot with the following format `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. If you want to turn it off, use /nosubscribe. Want to set custom raffle message? Use /raffleMessage. Want to use default raffle message? Use /noRaffleMessage. /winnerMessage and /noWinnerMessage work similarly. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nAinda tem perguntas? Visite nosso canal de suporte — @buddybig 🦄",
     tr:
-      "Merhaba! Ben Randy Marsh. Bir grupta veya kanalda rastgele bir çekiliş katılımcısını (\"Katıl\" düğmesine basan) seçebilirim. Kaynak kodum [burada](https://github.com/backmeupplz/randymbot). Ayrıca /language ile botun dilini ve /number ile çekilişi kazanacak kişi sayısını da değiştirebilirsiniz (varsayılan 1).\n\n1. Beni bir kanala veya gruba ekle, /randoom komutunu gönder ve çekiliş başlasın!\n2. Çekilişi bitirmek için çekiliş iletime herhangi bir mesajla yanıt verin ve katılımcılardan rastgele bir kazanan seçilecektir.\n\nBir kullanıcının belirlediğiniz bir kanala abone olup olmadığını kontrol etmek istiyorsanız, botu şu formatta ayarlayabilirsiniz: `/subscribe @kameraonu`, `/subscribe @kanal_adi, @baska_kanal, @ve_baskabir_kanal`. Kapatmak istiyorsanız, /nosubscribe komutunu kullanın. Özel bir çekiliş mesajı belirlemek ister misiniz? /raffleMessage komutunu kullanın. Varsayılan çekiliş mesajına tekrar dönmek ister misiniz? /noRaffleMessage komutunu kullanın. /winnerMessage ve /noWinnerMessage komutları yine benzer şekilde kazanan kişi için yazılacak yazıyı belirleyen komutlardır. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nBaşka soruların mı var? Destek kanalımıza gel — @buddybig 🦄",
+      "Merhaba! Ben Randoom. Bir grupta veya kanalda rastgele bir çekiliş katılımcısını (\"Katıl\" düğmesine basan) seçebilirim. Ayrıca /language ile botun dilini ve /number ile çekilişi kazanacak kişi sayısını da değiştirebilirsiniz (varsayılan 1).\n\n1. Beni bir kanala veya gruba ekle, /randoom komutunu gönder ve çekiliş başlasın!\n2. Çekilişi bitirmek için çekiliş iletime herhangi bir mesajla yanıt verin ve katılımcılardan rastgele bir kazanan seçilecektir.\n\nBir kullanıcının belirlediğiniz bir kanala abone olup olmadığını kontrol etmek istiyorsanız, botu şu formatta ayarlayabilirsiniz: `/subscribe @kameraonu`, `/subscribe @kanal_adi, @baska_kanal, @ve_baskabir_kanal`. Kapatmak istiyorsanız, /nosubscribe komutunu kullanın. Özel bir çekiliş mesajı belirlemek ister misiniz? /raffleMessage komutunu kullanın. Varsayılan çekiliş mesajına tekrar dönmek ister misiniz? /noRaffleMessage komutunu kullanın. /winnerMessage ve /noWinnerMessage komutları yine benzer şekilde kazanan kişi için yazılacak yazıyı belirleyen komutlardır. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nBaşka soruların mı var? Destek kanalımıza gel — @buddybig 🦄",
     uk:
       "Привіт! Це Рандом Бот.\n🤖🎯\nЯ вмію випадковим чином вибирати учасника чату або каналу з тих, що натиснули на кнопку \"Взяти участь\". \n\nЗмінити мову можна командою /language. Змінити кількість переможців (стандартно — 1) командою /number.\n\n1. Надішліть команду /randoom і почнеться розіграш.\n2. Дайте відповідь на повідомлення про розіграш будь-яким повідомленням, і розіграш завершиться, а переможець буде обраний з учасників.\n\nХочете налаштувати власні повідомлення про розіграш та привітання переможців ? Використовуйте /raffleMessage та /winnerMessage\n\nХочете влаштувати розіграш, але не хочете надсилати конфігураційні повідомлення в чат або на канал? Ви можете зробити це в приватних повідомленнях зі мною. Спочатку перешліть будь-яке повідомлення з каналу або чату, де ви є адміністратором.\n\nПотім просто надішліть мені в приватні повідомлення описані вище команди конфігурації, щоб налаштувати розіграш в обраному чаті або каналі.\n\nЗалишилися питання? — Пишіть: @buddybig 😇",
     ar:
-      "مرحبًا بكم! (أنا (راندي مارش يمكنني اختيار مشارك السحب عشوائياً (الذي ضغط زر \"المشاركة\") في مجموعة أو قناة. رمز مصدري هو [هنا](https://github.com/backmeupplz/randymbot). يمكنك أيضًا تغيير اللغة /language وعدد الفائزين لكل سحب /number (الافتراضي هو 1، يمكنك استخدام تنسيق /number 100).\n\n1. إضافة لي إلى قناة أو مجموعة ، وإرسال الأمر /randy والسحب سيبدأ.\n2. الرد مع أي رسالة إلى رسالة السحب الخاصة بي لإنهاء السحب، وسيتم اختيار الفائز العشوائي من المشاركين.\n\nIf you want to check whether a user is subscribed to a particular channel you can set up the bot with the following format `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. If you want to turn it off, use /nosubscribe. Want to set custom raffle message? Use /raffleMessage. Want to use default raffle message? Use /noRaffleMessage. /winnerMessage and /noWinnerMessage work similarly. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nأمازلت تملك أسئلة؟ انتقل إلى قناة الدعم الخاصة بنا — @buddybig 🦄",
+      "مرحبًا بكم! (أنا (راندي مارش يمكنني اختيار مشارك السحب عشوائياً (الذي ضغط زر \"المشاركة\") في مجموعة أو قناة. رمز مصدري هو [هنا]. يمكنك أيضًا تغيير اللغة /language وعدد الفائزين لكل سحب /number (الافتراضي هو 1، يمكنك استخدام تنسيق /number 100).\n\n1. إضافة لي إلى قناة أو مجموعة ، وإرسال الأمر /ramdoom والسحب سيبدأ.\n2. الرد مع أي رسالة إلى رسالة السحب الخاصة بي لإنهاء السحب، وسيتم اختيار الفائز العشوائي من المشاركين.\n\nIf you want to check whether a user is subscribed to a particular channel you can set up the bot with the following format `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. If you want to turn it off, use /nosubscribe. Want to set custom raffle message? Use /raffleMessage. Want to use default raffle message? Use /noRaffleMessage. /winnerMessage and /noWinnerMessage work similarly. Use /nodelete if you don't want to delete the original message.\n\nWant to set up a raffle but don't want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel.\n\nأمازلت تملك أسئلة؟ انتقل إلى قناة الدعم الخاصة بنا — @buddybig 🦄",
     es:
-      '"¡Hola! Soy Randy Marsh. Puedo selecionar aleatoriamente el participante de un sorteo (que toque el botón \\"Participar\\") en un grupo o canal. Mi código fuente está [aqui] (https://github.com/backmeupplz/randymbot). Usted também puede cambiar el idioma en /language y el número de ganadores en cada sorteo (por defecto es 1, puede usar el formato /number 100).\\n\\n1. Añádame a un canal o grupo, envíe el comando /randy y el sorteo comenzará.\\n2. Responda con cualquier mensaje a mi mensaje de sorteo para terminarlo, y se eligirá alteatoriamente un ganador entre los particpantes.\\n\\nSi desea saber si un usuario está suscrito a un canal en particular, puede configurar el bot con el siguiente formato `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. Si desea apagarlo, use /nosubscribe. ¿Desea establecer un mensaje de sorteo personalizado? Use /raffleMessage. ¿Desea usar el mensaje de sorteo predeterminado? Use /noRaffleMessage. /winnerMessage y /noWinnerMessage funcionan de manera similar para el mensaje de los ganadores. Use /nodelete si no desea eliminar el mensaje original.\\n\\n¿Aun tiene perguntas? Visite nuestro canal de soporte — @buddybig 🦄\\n\\nWant to set up a raffle but don\'t want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel."',
+      '"¡Hola! Soy Randoom. Puedo selecionar aleatoriamente el participante de un sorteo (que toque el botón \\"Participar\\") en un grupo o canal. Usted também puede cambiar el idioma en /language y el número de ganadores en cada sorteo (por defecto es 1, puede usar el formato /number 100).\\n\\n1. Añádame a un canal o grupo, envíe el comando /randoom y el sorteo comenzará.\\n2. Responda con cualquier mensaje a mi mensaje de sorteo para terminarlo, y se eligirá alteatoriamente un ganador entre los particpantes.\\n\\nSi desea saber si un usuario está suscrito a un canal en particular, puede configurar el bot con el siguiente formato `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`. Si desea apagarlo, use /nosubscribe. ¿Desea establecer un mensaje de sorteo personalizado? Use /raffleMessage. ¿Desea usar el mensaje de sorteo predeterminado? Use /noRaffleMessage. /winnerMessage y /noWinnerMessage funcionan de manera similar para el mensaje de los ganadores. Use /nodelete si no desea eliminar el mensaje original.\\n\\n¿Aun tiene perguntas? Visite nuestro canal de soporte — @buddybig 🦄\\n\\nWant to set up a raffle but don\'t want to send config messages to the chat or the channel? You can do so in private messages with me. First, forward any message from a channel or a chat where you are an admin (or add a chat with the command `/addChat 123456789` or `/addChat @borodutcher`). Then, select the chat or the channel you want to configure with the command /configRaffle. Then just send me the config commands described above to the private messages with me to set up the raffle in the selected chat or channel."',
   },
   no_work_private: {
     ru: 'Простите, но эта команда не работает в личке с ботом.',
@@ -199,6 +199,8 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
   subscribe_format: {
     ru:
       'Пожалуйста, укажите хендл канала, на который надо проверять подписку, в формате `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`.',
+    uk:
+      "Будь ласка, вкажіть ім'я каналу (хендл канала), на яке потрібно перевіряти підписку, у форматі /subscribe @channel_handle, /subscribe @channel_handle, @another_channel, @and_another_one.",
     en:
       'Please, set the channel to check subscription to with the format `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`.',
     tr:
@@ -207,13 +209,15 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
       'Por favor, configure el canal para verificar la suscripción con el formato `/subscribe @channel_handle`, `/subscribe @channel_handle, @another_channel, @and_another_one`.',
   },
   nosubscribe_success: {
-    ru: 'Ренди не будет проверять подписку на какой-либо канал.',
-    en: 'Randy will not check subscription.',
-    tr: 'Randy, artık aboneliği kontrol etmeyecek.',
-    es: 'Randy no verificará la suscripción.',
+    ru: 'Рандом не будет проверять подписку на какой-либо канал.',
+    uk: "Рандом не буде перевіряти підписку на будь-який канал.",
+    en: 'Randoom will not check subscription.',
+    tr: 'Randoom, artık aboneliği kontrol etmeyecek.',
+    es: 'Randoom no verificará la suscripción.',
   },
   bot_not_admin: {
     ru: `Пожалуйста, сделайте @${process.env.USERNAME} админом в этом чате.`,
+    uk: `Будь ласка, зробіть користувача @${process.env.USERNAME} адміном у цьому чаті.`,
     en: `Please make @${process.env.USERNAME} an admin in this chat.`,
     tr: `Lütfen, @${process.env.USERNAME} u yönetici yapın`,
     es: `Por favor, haga de @${process.env.USERNAME} un administrador en este grupo.`,
@@ -223,10 +227,13 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
     tr: `Lütfen, @${process.env.USERNAME} u yönetici yapın`,
     es: `Por favor, haga de @${process.env.USERNAME} un administrador en este chat.`,
     ru: `Пожалуйста, сделайте @${process.env.USERNAME} админом в этом чате`,
+    uk: `Будь ласка, зробіть користувача @${process.env.USERNAME} адміном у цьому чаті.`,
   },
   subscribe_success: {
     ru:
       'Отлично, теперь бот будет проверять подписку пользователя на следующий канал перед разрешением участвовать в конкурсе: ',
+    uk:
+      "Чудово, тепер бот буде перевіряти підписку користувача на наступний канал перед наданням можливості брати участь у конкурсі: ",
     en:
       'Great, now bot will check if the participant is subscribed to the following channel before allowing to participate: ',
     tr:
@@ -236,6 +243,7 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
   },
   check_subscription: {
     ru: 'Вы должны быть подписаны на ',
+    uk: "Ви повинні бути підписані на ",
     en: 'You should be subscribed to ',
     tr: 'Abone olmalısınız ',
     es: 'Deberías estar suscrito',
@@ -249,12 +257,15 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
       'Responda a este mensaje para configurar un mensaje de rifa personalizado. Asegúrese de responder a este mensaje (esperamos que todos sepan lo que significa la palabra "responder" en este momento). Asegúrese de incluir "$ numberOfParticipants" sin comillas en su mensaje; no funcionará sin él. ¡Saludos! 💪 El mensaje de la rifa actual (si está configurado) está debajo.',
     ru:
       'Ответьте на это сообщение, чтобы установить новое сообщение розыгрыша. Именно ответьте (надеемся, что все понимают разницу между обычным сообщением и ответом). Обязательно используйте "$numberOfParticipants" без кавычек в сообщении — иначе установка не сработает. Удачи! 💪 Текущее сообщение (если оно установленно), приведено ниже.',
+    uk:
+      'Відповідайте на це повідомлення, щоб встановити нове повідомлення для розіграшу. Будь ласка, відповідайте (сподіваємося, що всі розрізняють звичайне повідомлення від відповіді). Обов`язково використовуйте "$numberOfParticipants" без лапок у повідомленні - інакше встановлення не спрацює. Удачі! 💪 Поточне повідомлення (якщо воно встановлене), подане нижче.'
   },
   raffle_message_off: {
-    ru: 'Теперь Ренди будет использовать стандартное сообщение о розыгрыше.',
-    en: 'Randy will use standard raffle message now.',
-    tr: 'Randy, artık varsayılan çekiliş mesajını kullanacak.',
-    es: 'Randy usará el mensaje estándar de la rifa ahora.',
+    ru: 'Теперь Рандом будет использовать стандартное сообщение о розыгрыше.',
+    uk: "Тепер Рандом буде використовувати стандартне повідомлення для розіграшу.",
+    en: 'Randoom will use standard raffle message now.',
+    tr: 'Randoom, artık varsayılan çekiliş mesajını kullanacak.',
+    es: 'Randoom usará el mensaje estándar de la rifa ahora.',
   },
   winner_message: {
     en:
@@ -265,57 +276,71 @@ export const localizations: { [index: string]: { [index: string]: string } } = {
       'Responda a este mensaje para configurar un mensaje de ganador personalizado. Asegúrese de responder a este mensaje (esperamos que todos sepan lo que significa la palabra "responder" en este momento). Asegúrese de incluir "$ numberOfParticipants" y "$ ganador" sin comillas en su mensaje; no funcionará sin él. ¡Saludos! 🎉 El mensaje del ganador actual (si está configurado) está debajo.',
     ru:
       'Ответьте на это сообщение, чтобы установить новое сообщение о победе. Именно ответьте (надеемся, что все понимают разницу между обычным сообщением и ответом). Обязательно используйте "$numberOfParticipants" и "$winner" без кавычек в сообщении — иначе установка не сработает. Удачи! 🎉 Текущее сообщение (если оно установленно), приведено ниже.',
+    uk:
+      'Відповідайте на це повідомлення, щоб встановити нове повідомлення про перемогу. Будь ласка, відповідайте (сподіваємося, що всі розрізняють звичайне повідомлення від відповіді). Обов`язково використовуйте "$numberOfParticipants" і "$winner" без лапок у повідомленні - інакше встановлення не спрацює. Удачі! 🎉 Поточне повідомлення (якщо воно встановлене), подане нижче.'
   },
   winner_message_off: {
-    ru: 'Теперь Ренди будет использовать стандартное сообщение о победе.',
-    en: 'Randy will use standard winner message now.',
-    tr: 'Randy, artık varsayılan kazanan mesajını kullanacak.',
-    es: 'Randy usará el mensaje estándar del ganador ahora.',
+    ru: 'Теперь Рандом будет использовать стандартное сообщение о победе.',
+    uk: "Тепер Рандом буде використовувати стандартне повідомлення про перемогу.",
+    en: 'Randoom will use standard winner message now.',
+    tr: 'Randoom, artık varsayılan kazanan mesajını kullanacak.',
+    es: 'Randoom usará el mensaje estándar del ganador ahora.',
   },
   success: {
     ru: 'Успех!',
+    uk: "Успіх!",
     en: 'Success!',
     tr: 'Başarılı!',
     es: '¡Logrado!',
   },
   nodelete_true: {
-    ru: 'Теперь Ренди не будет редактировать (удалять) оригинальное сообщение.',
-    en: 'Now Randy will not edit (delete) original message.',
-    es: 'Ahora Randy no editará (eliminará) el mensaje original.',
-    tr: 'Randy artık orijinal mesajı düzenlemeyecek (silmeyecek).',
+    ru: 'Теперь Рандом не будет редактировать (удалять) оригинальное сообщение.',
+    uk: "Тепер Рандом не буде редагувати (видаляти) оригінальне повідомлення.",
+    en: 'Now Randoom will not edit (delete) original message.',
+    es: 'Ahora Randoom no editará (eliminará) el mensaje original.',
+    tr: 'Randoom artık orijinal mesajı düzenlemeyecek (silmeyecek).',
   },
   nodelete_false: {
-    ru: 'Теперь Ренди будет редактировать (удалять) оригинальное сообщение.',
-    en: 'Now Randy will edit (delete) original message.',
-    es: 'Ahora Randy editará (eliminará) el mensaje original.',
-    tr: 'Randy artık orijinal mesajı düzenleyecek (silecek).',
+    ru: 'Теперь Рандом будет редактировать (удалять) оригинальное сообщение.',
+    uk: "Тепер Рандом буде редагувати (видаляти) оригінальне повідомлення.",
+    en: 'Now Randoom will edit (delete) original message.',
+    es: 'Ahora Randoom editará (eliminará) el mensaje original.',
+    tr: 'Randoom artık orijinal mesajı düzenleyecek (silecek).',
   },
   mustBeAnAdmin: {
     en: 'You have to be an admin in the chat',
     ru: 'Вы должны быть админом в чате',
+    uk: "Ви повинні бути адміном в чаті."
   },
   config_raffle_instructions: {
     en:
       'Success! Now select the chat or the channel you want to configure with /configRaffle',
     ru:
       'Успех! Теперь выберите канал или чат, который хотите настроить, при помощи команды /configRaffle',
+    uk:
+      "Успіх! Тепер оберіть канал чи чат, який ви хочете налаштувати за допомогою команди /configRaffle."
   },
   config_raffle_no_chats: {
     en:
       'First, forward me a message from a channel or a chat you want to configure',
     ru:
       'Сначала перешлите мне форвард сообщения из чата или канала, который хотите настроить',
+    uk:
+      "Спочатку перешліть мені переслане повідомлення з чату чи каналу, який ви хочете налаштувати."
   },
   select_chat: {
     en: 'Select a chat or a channel to configure',
     ru: 'Выберите чат или канал, который хотите настроить',
+    uk: "Оберіть чат чи канал, який ви хочете налаштувати."
   },
   private_messages: {
     en: 'Private messages',
     ru: 'Приватные сообщения',
+    uk: "Приватні повідомлення"
   },
   now_editing_this_chat: {
     en: 'Great! Now you are editting the config of this chat',
     ru: 'Отлично! Теперь вы редактируете настройки этого чата',
+    uk: "Відмінно! Тепер ви редагуєте налаштування цього чату."
   },
 }
