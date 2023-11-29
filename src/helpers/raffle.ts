@@ -21,7 +21,7 @@ export async function startRaffle(ctx: ContextMessageUpdate) {
   // Get chat
   const chat = await findChat(ctx.chat.id)
   // Add raffle
-  const raffle = await addRaffle(ctx.chat.id, ctx.from?.id)
+  const raffle = await addRaffle(ctx.chat.id, ctx.from ? ctx.from.id : null)
   // Save raffle message if required
   if (chat.raffleMessage) {
     raffle.raffleMessage = chat.raffleMessage
@@ -603,10 +603,13 @@ export async function finishRaffle(raffle: Raffle, ctx: ContextMessageUpdate, de
         .map(x => x.user.id);
 
         for (const adminId of adminIds) {
-          const msg = await ctx.telegram.sendDocument(adminId, {
-            source: buffer,
-            filename: 'participiants.csv'
-          });
+          try {
+            const msg = await ctx.telegram.sendDocument(adminId, {
+              source: buffer,
+              filename: 'participiants.csv'
+            });
+          } catch {}
+          
         }
     }
     
